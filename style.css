@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.ContenedorSuperior{
+    background-color: #1CD1B0;
+    margin: 0px;
+    padding: 1px;
+    
+}
+
+.ContenedorHeroes{
+    background: #00669F;
+    margin: 0px;
+    padding: 10px;
+}
+
+.ContenedorPrincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 100px 5px 100px 5px;
+
+}
+
+.ContenedorFooter{
+    background: #00669F;
+    color: white;
+    margin: 0px;
+    padding: 1px;
+}
+
+span img{
+    clip-path: circle(60px at center);
+}
+
+.ImagenFondo {
+    position: relative;
+    left: 0px;
+
+}
+
+.RectanguloFondo {
+    position: relative;
+    right: 5px;
+
+}
+
+.Corazon {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+
+}
+
+.Perfil {
+    position: absolute;
+    left: 90px;
+    top: 130px;
+    z-index: 1;
+    
+}
+
+.TextoTituloBatman {
+    position: absolute;
+    left: 104px;
+    top: 50px;
+    
+}
+
+.TextoTituloHarley {
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    
+}
+
+.TextoParrafo {
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+
+.Boton{
+    background-color: #00669F;
+    color: white;
+    position: absolute;
+    left: 90px;
+    top: 260px;
+    padding: 2px 40px 2px 40px;
+}
